@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container-fluid {
+  flex: 1;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+.left-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-menu li {
+  margin: 10px 0;
+}
+
+.main-content h1 {
+  font-size: 2rem;
+}
+
+.main-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.right-panel h3 {
+  font-size: 1.5rem;
+}
